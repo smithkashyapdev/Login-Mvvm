@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Login Mvvm</string>
+
+    <string name="payment_settings">Payment Settings</string>
+    <string name="logout">Logout</string>
+    <string name="footer_content">Made In ♥️ By Smith</string>
+    <string name="username_email">Username/ Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="_19_extended">19 extended</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+
+    <string name="full_name">FullName</string>
+    <string name="user_name">UserName</string>
+
+    <string name="user_online">Online</string>
+    <string name="user_offline">Offline</string>
+
+    <string name="follow_user">FOLLOW</string>
+
+    <string name="posts_label">posts</string>
+    <string name="followers_label">followers</string>
+    <string name="following_label">following</string>
+
+    <string name="no_post">User has no posts</string>
+
+</resources>
