@@ -1,6 +1,7 @@
 package net.simplifiedcoding.mvvmsampleapp.data.network
 
 import com.development.loginmvvm.model.UserDetail
+import com.development.loginmvvm.model.itunes.ItuneResponse
 import net.simplifiedcoding.mvvmsampleapp.data.network.responses.AuthResponse
 import okhttp3.OkHttpClient
 import retrofit2.Response
@@ -23,6 +24,9 @@ interface MyApi {
     @GET("users/1")
     suspend fun getUserDetail() : Response<UserDetail>
 
+//&quot;​
+    @GET("search?term=Michael+jackson&amp;media=musicVideo")
+    suspend fun getPreviewList() : Response<ItuneResponse>
 
 
      companion object{
@@ -38,7 +42,7 @@ interface MyApi {
 
                 mMyApi=Retrofit.Builder()
                     .client(okkHttpclient)
-                    .baseUrl(" https://reqres.in/api/")
+                    .baseUrl("https://itunes.apple.com/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build()
                     .create(MyApi::class.java)

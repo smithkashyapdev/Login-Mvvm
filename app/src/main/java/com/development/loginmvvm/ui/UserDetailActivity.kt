@@ -1,4 +1,4 @@
-package com.development.loginmvvm
+package com.development.loginmvvm.ui
 
     import android.os.Bundle
 import android.view.View
@@ -8,15 +8,13 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
     import com.bumptech.glide.Glide
+    import com.development.loginmvvm.R
     import com.development.loginmvvm.data.network.ApiException
 import com.development.loginmvvm.data.network.NoInternetException
 import com.development.loginmvvm.data.network.repository.UserRepository
-import com.development.loginmvvm.databinding.ActivityMainBinding
-import com.development.loginmvvm.databinding.ActivityUserDetailBinding
-import com.development.loginmvvm.viewmodel.LoginViewModel
-import com.development.loginmvvm.viewmodel.LoginViewModelFactory
-import com.development.loginmvvm.viewmodel.UserDetailFactory
-import com.development.loginmvvm.viewmodel.UserDetailViewModel
+    import com.development.loginmvvm.databinding.ActivityUserDetailBinding
+    import com.development.loginmvvm.viewmodel.loginmodel.UserDetailFactory
+import com.development.loginmvvm.viewmodel.loginmodel.UserDetailViewModel
 import kotlinx.coroutines.launch
 import net.simplifiedcoding.mvvmsampleapp.data.network.MyApi
 

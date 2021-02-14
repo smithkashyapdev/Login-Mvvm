@@ -1,4 +1,4 @@
-package com.development.loginmvvm.viewmodel
+package com.development.loginmvvm.viewmodel.loginmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

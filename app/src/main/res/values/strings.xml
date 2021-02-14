@@ -24,5 +24,7 @@
     <string name="following_label">following</string>
 
     <string name="no_post">User has no posts</string>
+    <string name="video">VIDEO</string>
+    <string name="history">HISTORY</string>
 
 </resources>
